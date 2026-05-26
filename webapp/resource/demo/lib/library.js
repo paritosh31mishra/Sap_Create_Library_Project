@@ -6,7 +6,7 @@ sap.ui.define([
 
     sap.ui.getCore().initLibrary({
 
-        name: "resources.demo.lib",
+        name: "demo.lib",
 
         version: "1.0.0",
 
@@ -18,6 +18,6 @@ sap.ui.define([
 
     });
 
-    return {};
+    return demo.lib;
 
 });
